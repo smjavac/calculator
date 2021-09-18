@@ -1,0 +1,13 @@
+target/
+out/
+.idea
+*.properties
+*.log
+*.iml
+*.png
+out.*
+apache-maven-3.2.5
+apache-tomcat-8.5.35
+apache-tomcat-9.0.13
+Resources
+vaadin-all-8.6.1
