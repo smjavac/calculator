@@ -15,23 +15,11 @@ import java.util.Scanner;
 public class Calculator {
 
     /**
-     * Performs calculations on Roman numerals and prints the result.
-     * <p>
-     * If either of the numbers are not Roman numerals, or if the operation is
-     * unrecognized, prints an error message.  Otherwise, performs the
-     * operation and prints the result in Roman numerals.  If the result is
-     * less than 1 or larger than 3999, prints a message indicating this
-     * instead.
-     *
-     * @param leftNumber  The left operand, in Roman numerals.
      * @param operation   The operator, which may be,
      * - "+" for addition,
      * - "-" for subtraction,
      * - "*" for multiplication,
      * - "/" for (integer) division,
-     * - "%" for remainder,
-     * - "#" to average the two numbers.
-     * @param rightNumber The right operand.
      */
 
     private static final Logger logger = Logger.getLogger(Calculator.class);
