@@ -13,8 +13,9 @@ public class RomanNumerals {
         // Group 1: Write this function!
         String romanNum = "";
 
-
-        while (value > 0) {
+       if(value <= 0) throw new NoSuchElementException("Результат вычисления римских цифр не может быть отрицательным или равным нулю");
+        
+       while (value > 0) {
             while (value >= 1000) {
                 romanNum = romanNum + "M";
                 value -= 1000;
