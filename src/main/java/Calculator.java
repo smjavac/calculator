@@ -109,7 +109,7 @@ public class Calculator {
             throw new NoSuchElementException("Введите число больше 0 и меньше 10");
         }*/
         if (num == 0) {
-            logger.error("Введено число меньше 0);
+            logger.error("added a digit less than");//Введено число меньше 0);
             throw new NoSuchElementException("Введите число больше 0");
         }
     }

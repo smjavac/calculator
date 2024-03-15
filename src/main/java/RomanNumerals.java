@@ -1,3 +1,5 @@
+import java.util.NoSuchElementException;
+
 /**
  * Code to convert to and from Roman numerals.
  */
