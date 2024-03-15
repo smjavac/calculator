@@ -104,14 +104,14 @@ public class Calculator {
             throw new NoSuchElementException("Система записи чисел должны быть либо арабской, " +
                     "либо римской");
         }
-        /*if (num >= 10 || num == 0) {
+        if (num > 10 || num == 0) {
             logger.error("Введено число меньше 0 или больше 10");
             throw new NoSuchElementException("Введите число больше 0 и меньше 10");
-        }*/
-        if (num == 0) {
-            logger.error("added a digit less than 0");//Введено число меньше 0);
-            throw new NoSuchElementException("Введите число больше 0");
         }
+        /* if (num == 0) {
+            logger.error("Введено число равное 0");//Введено число меньше 0);
+            throw new NoSuchElementException("Введите число больше 0");
+        }*/
     }
 
 
